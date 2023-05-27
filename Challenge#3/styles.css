@@ -1,39 +1,51 @@
-* {
-    margin: 0;
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+section {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 
 header {
     background-color: #23424A;
     color: #fff;
-    padding: 5em 4em;
+    padding: 3em 0;
 }
 
-section {
+.text {
     width: 60%;
 }
 
 h1 {
     font-family: 'Roboto Black', sans-serif;
-    font-size: 48px;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
-    line-height: 1.5em;
-    margin-top: 1em;
+    font-size: 3rem;
 }
 
 button {
-    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 21px;
-    background-color: #38CFD9;
     border: none;
-    width: 13em;
-    height: 2em;
-    border-radius: 20px;
-    margin-top: 1em;
+    color: #23424A;
+    background-color: #38CFD9;
+    font-weight: 900;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+button:hover,
+button:focus {
+    opacity: .75;
+    cursor: pointer;
 }
