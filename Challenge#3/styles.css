@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #23424A;
+    color: #fff;
+    padding: 5em 4em;
+}
+
+section {
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 1.5em;
+    margin-top: 1em;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 21px;
+    background-color: #38CFD9;
+    border: none;
+    width: 13em;
+    height: 2em;
+    border-radius: 20px;
+    margin-top: 1em;
+}
